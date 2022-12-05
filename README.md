@@ -21,3 +21,11 @@ The dataset for this project contains 372450 images of alphabets of 28×2, all p
 
 
 ![page](https://user-images.githubusercontent.com/118565420/205702196-b4ef0908-34d3-479e-b30a-ddbb9c50df3a.jpg)
+
+The convolution layers are generally followed by maxpool layers that are used to reduce the number of features extracted and ultimately the output of the maxpool and layers and convolution layers are flattened into a vector of single dimension and are given as an input to the Dense layer (The fully connected network).
+
+![cnn](https://user-images.githubusercontent.com/118565420/205702330-c07bf60b-50e8-4b0d-897a-7137fcf793a0.jpg)
+
+
+## Conclusion
+Handwritten characters have been recognized with more than 97% test accuracy. This can be also further extended to identifying the handwritten characters of other languages too.
